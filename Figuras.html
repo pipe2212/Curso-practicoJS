@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calvuladora</title>
+    <title>Calculadora</title>
 </head>
 <body>
+    <header>
+        <h1>FIGURAS GEOMETRICAS</h1>
+        <p>Este es mi primer taller practico js</p>
+    </header>
+
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+         <form >
+<label for="InputCuadrado"> Escribe cuanto mide un lado de tu cuadrado</label>
+<input id="InputCuadrado" type= "number" >
+<button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perimetro</button>
+<button type="button" onclick="calcularAreaCuadrado()">Calcular area</button>
+
+
+
+<label for="InputTriangulo"> Escribe cuanto mide cada lado de tu triangulo si es perimetro si es area solo altura y base</label>
+<input id="InputTriangulo" type="number" >
+
+
+<button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button>
+<button type="button" onclick="calcularAreaTriangulo()">Calcular area</button>
+
+
+
+<label for="InputCirculo"> Escribe cuanto mide el radio de tu circulo</label>
+<input id="InputCirculo" type= "number" >
+<button type="button" onclick="calcularPerimetroCirculo()">Calcular Perimetro</button>
+<button type="button" onclick="calcularAreaCirculo()">Calcular area</button>
+
+
+         </form>
+    </section>
     <script src="Figuras.js"></script>
 </body>
 </html>
